@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>P PARIBAHAN</title>
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- Custom Css  -->
+	<link rel="stylesheet" href="css/all.css">
+	<!-- Fonts  -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<!-- Font Awesome  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="shortcut icon" href="images/bus-icon.png" type="image/x-icon">
+</head>
+
+<body>
+	<header class="container mx-auto">
+		<div class="navbar bg-white">
+			<div class="navbar-start">
+				<div class="dropdown">
+					<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+							stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M4 6h16M4 12h8m-8 6h16" />
+						</svg>
+					</div>
+					<ul tabindex="0"
+						class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+						<li><a>Home</a></li>
+						<li><a>About</a></li>
+						<li><a>Destination</a></li>
+						<li><a>Search</a></li>
+					</ul>
+				</div>
+				<h1 class="text-3xl font-bold raleway">P-Ticket</h1>
+			</div>
+			<div class="navbar-center hidden lg:flex">
+				<ul class="menu menu-horizontal px-1">
+					<li><a>Home</a></li>
+					<li><a>About</a></li>
+					<li><a>Destination</a></li>
+					<li><a>Search</a></li>
+				</ul>
+			</div>
+			<div class="navbar-end">
+				<a class="btn btn-b bg-lime-200 text-lg">Bus <img src="images/bus-icon.png" alt=""></a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Home Section Starting -->
+
+	<main class="container mx-auto">
+		<section class="home">
+			<div>
+				<h1>End-to-End Travel with <br> <span>P Paribahan</span></h1>
+				<p class="text-white mb-7">Yes, you can run unit tests and view the results directly within the app. The
+					<br> integrated testing features allow for a streamlined .
+				</p>
+				<button href="#" class="btn btn-home" onclick="scrollToSection('buy-ticket')">Buy Tickets</button>
+
+			</div>
+		</section>
+
+		<!-- Offers  -->
+		<section class="offers">
+			<div class="title">Best offers for you</div>
+
+			<div class="flex items-center justify-center">
+				<div class="offer-row grid grid-cols-1 lg:grid-cols-2 gap-40">
+
+					<div class="single-offer-1 flex justify-between lg:w-[573px] items-center">
+						<div class="off-side-1">
+							<h1 class="off-heading">15% OFF</h1>
+							<h4 class="off-descreption">on your next purchase</h4>
+							<p class="off-text">use by January 2024</p>
+						</div>
+						<div class="off-side-1">
+							<h2 class="cupon">NEW15</h2>
+							<p class="cupon-desc">Coupon Code4</p>
+						</div>
+					</div>
+
+					<div class="single-offer-2 flex justify-between w-[573px] items-center">
+						<div class="off-side">
+							<h1 class="off-heading">20% OFF</h1>
+							<h4 class="off-descreption">on your next purchase</h4>
+							<p class="off-text">use by January 2024</p>
+						</div>
+						<div class="off-side">
+							<h2 class="cupon">Couple 20</h2>
+							<p class="cupon-desc">Coupon Code4</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Bus INfo  -->
+
+	<section id="buy-ticket"
+		class="bg-[#f7f8f8] py-5 md:py-16 lg:py-28 px-4 md:px-24 lg:px-32 border-t border-[#1dd100] rounded-t-3xl mt-16 md:mt-28">
+		<!-- Section title & description  -->
+		<div class="w-full md:w-[70%] mx-auto">
+			<h1 class="text-[#030712] text-center mb-6 font-bold text-2xl lg:text-4xl">
+				P.H Paribahan
+			</h1>
+			<p class="text-[#03071299] text-center font-inter md:text-lg">
+				Yes, you can run unit tests and view the results directly within the
+				app. The integrated testing features allow for a streamlined .
+			</p>
+		</div>
+		<!-- Ticket related  -->
+		<div class="p-1 md:p-8 rounded-2xl font-raleway">
+			<!-- first box -->
+			<div class="bg-white px-3 py-5 md:p-8 rounded-2xl flex flex-col-reverse lg:flex-row gap-6">
+				<!-- first box left side -->
+				<div class="w-full lg:w-[80%]">
+					<!-- left side top -->
+					<div class="flex flex-col md:flex-row gap-4 justify-between">
+						<div class="flex items-center gap-4">
+							<div>
+								<img src="images/bus-logo.png" alt="greenline-icon" />
+							</div>
+							<div>
+								<h2 class="text-[#030712] font-bold text-xl md:text-2xl">
+									Greenline Paribahan
+								</h2>
+								<p class="text-[#03071299] font-inter text-lg">
+									Coach-009-WEB ! AC_Business
+								</p>
+							</div>
+						</div>
+						<div class="bg-[#1dd10026] flex items-center rounded-xl p-4 font-inter text-lg font-medium">
+							<div class="mr-1">
+								<img src="images/seat-green.png" alt="seat-left-icon" />
+							</div>
+							<span id="seat-left-count">40</span>
+							<span class="ml-1">Seats left</span>
+						</div>
+					</div>
+					<!-- left side bottom -->
+					<div class="bg-[#f7f8f8] p-8 rounded-2xl mt-5">
+						<!-- one route  -->
+						<div class="flex justify-between border-b border-dashed border-[#03071233] pb-6">
+							<h4 class="text-lg font-semibold text-[#03071299]">Route</h4>
+							<h3 class="text-lg font-semibold text-[#030712]">
+								Dhaka - Sylhet
+							</h3>
+						</div>
+						<!-- departure time -->
+						<div class="flex mt-3 justify-between border-b border-dashed border-[#03071233] pb-6">
+							<h4 class="text-lg font-semibold text-[#03071299]">
+								Departure Time
+							</h4>
+							<h3 class="text-lg font-semibold text-[#030712]">9:00 PM</h3>
+						</div>
+						<!-- keywords -->
+						<div class="mt-4 flex flex-col md:flex-row justify-between gap-3">
+							<div class="p-4 bg-[#0307120d] rounded-xl">
+								<p class="font-inter text-[#030712cc] font-medium">
+									Boarding Point - Laxmipur
+								</p>
+							</div>
+							<div class="p-4 bg-[#0307120d] rounded-xl">
+								<p class="font-inter text-[#030712cc] font-medium">
+									Dropping Point - Bogura
+								</p>
+							</div>
+							<div class="p-4 bg-[#0307120d] rounded-xl">
+								<p class="font-inter text-[#030712cc] font-medium">
+									Est. Time - 11 Hour
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- first box right side -->
+				<div
+					class="w-full lg:w-[20%] flex justify-center items-center border-l-2 border-dashed border-[#1dd100] text-center">
+					<div class="space-y-3">
+						<div class="flex justify-center">
+							<img src="images/fare.png" alt="taka-logo" />
+						</div>
+						<h3 class="font-bold text-4xl">550 Taka</h3>
+						<p class="text-[#03071299] font-semibold text-2xl">Per Seat</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Second Box for select your ticket -->
+			<div class="mt-6 rounded-2xl bg-white border-[3px] font-inter gap-8 p-4 md:p-8 flex flex-col lg:flex-row">
+				<!-- select ticket left side -->
+				<div class="w-full lg:w-[52%] xl:w-[65%]">
+					<h2 class="font-raleway text-[#030712] text-2xl font-semibold mb-3">
+						Select Your Seat
+					</h2>
+					<div class="py-2 flex justify-between border-t border-b border-dashed border-[#03071233]">
+						<div class="flex items-center gap-3">
+							<img src="images/seat-gray.png" alt="available-icon" />
+							<p class="text-[#03071280] text-lg">Available</p>
+						</div>
+						<div class="flex items-center gap-3">
+							<img src="images/seat-green-filled.png" alt="available-icon" />
+							<p class="text-[#1dd100] text-lg">Selected</p>
+						</div>
+					</div>
+
+					<div class="flex justify-end my-6">
+						<div class="py-4 px-10 rounded-xl bg-[#0307121a]">
+							<img src="images/wheel.png" alt="car-steading" />
+						</div>
+					</div>
+					<!-- Seats -->
+					<div class="text-[#03071280] text-lg font-medium space-y-4">
+						<!-- A group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>A</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										A1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										A2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										A3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										A4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- B group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>B</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										B1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										B2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										B3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										B4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- C group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>C</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										C1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										C2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										C3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										C4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- D group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>D</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										D1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										D2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										D3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										D4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- E group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>E</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										E1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										E2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										E3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										E4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- F group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>F</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										F1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										F2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										F3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										F4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- G group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>G</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										G1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										G2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										G3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										G4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- H group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>H</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										H1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										H2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										H3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										H4
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- I group -->
+						<div class="flex items-center justify-start gap-4">
+							<span>I</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										I1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										I2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										I3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										I4
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex items-center justify-start gap-4">
+							<span>J</span>
+							<div class="flex grow items-center justify-between">
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										J1
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										J2
+									</div>
+								</div>
+								<div class="w-[40%] flex items-center justify-between gap-2">
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										J3
+									</div>
+									<div
+										class="seat w-[48%] bg-[#f7f8f8] py-3 text-center lg:py-4 rounded-xl cursor-pointer">
+										J4
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full lg:w-[48%] xl:w-[35%] border-l border-dashed pl-4 border-[#03071233]">
+					<h2
+						class="font-raleway text-[#030712] text-2xl font-semibold mb-4 pb-3 border-b border-dashed border-[#03071233]">
+						Select Your Seat
+					</h2>
+					<div class="bg-[#f7f8f8] rounded-2xl p-3 md:p-8">
+						<div class="flex justify-between border-b border-dashed border-[#03071233] pb-4">
+							<div class="flex justify-center items-center gap-1">
+								<h4 class="text-[#030712] font-medium">Seat</h4>
+								<span id="selected-seat-count"
+									class="bg-[#1dd100] text-white text-xs px-2 rounded-full h-fit">0</span>
+							</div>
+							<h4 class="text-[#030712] font-medium">Class</h4>
+							<h4 class="text-[#030712] font-medium">Price</h4>
+						</div>
+
+						<div id="seat-list-container" class="mt-4 space-y-3">
+						</div>
+						<!-- Total Price -->
+						<div class="mt-4 border-t border-[#03071233] pt-3 flex justify-between">
+							<h3 class="text-[#030712] font-medium">Total Price</h3>
+							<h3 id="total-price-amount" class="text-[#030712] font-medium">
+								BDT 0
+							</h3>
+						</div>
+						<div id="coupon-area" class="flex items-center relative mt-3">
+							<input type="text" id="coupon-input-field" placeholder="Have any coupon"
+								class="input input-bordered w-full rounded-sm py-5 pr-[29%] md:pr-[24%] lg:pr-[43%]"
+								disabled />
+							<button onclick="applyCoupon()" id="coupon-apply-btn"
+								class="btn min-h-0 h-auto py-3 rounded-2xl absolute rounded-sm right-[4%] top-[9%] text-white px-3 bg-[#1dd100] cursor-pointer border-none"
+								disabled>
+								Apply
+							</button>
+						</div>
+
+						<div class="mt-4 space-y-1">
+							<div id="discount-details" class="hidden mt-1 pt-3 flex justify-between">
+								<h3 class="text-[#030712] font-medium">Discount</h3>
+								<h3 class="text-[#030712] font-medium">
+									BDT <span id="discount-amount" class="ml-1">0</span>
+								</h3>
+							</div>
+							<div class="pt-3 flex justify-between">
+								<h3 class="text-[#030712] font-medium">Grand Total</h3>
+								<h3 id="grand-total-amount" class="text-[#030712] font-medium">
+									BDT <span id="grand-total-price" class="ml-1">0</span>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<form class="space-y-6 mt-6">
+						<label class="form-control w-full">
+							<div class="label">
+								<span class="label-text text-[#030712] font-semibold">Passenger Name*</span>
+							</div>
+							<input type="text" placeholder="Enter your name"
+								class="input input-bordered w-full rounded-sm" />
+						</label>
+						<label class="form-control w-full">
+							<div class="label">
+								<span class="label-text text-[#030712] font-semibold">Phone Number*</span>
+							</div>
+							<input type="number" id="phone-input-field" placeholder="Enter Your phone number"
+								class="input input-bordered w-full rounded-sm" />
+						</label>
+						<label class="form-control w-full">
+							<div class="label">
+								<span class="label-text text-[#030712] font-semibold">Email ID</span>
+							</div>
+							<input type="text" placeholder="Enter Your email id"
+								class="input input-bordered w-full rounded-sm" />
+						</label>
+						<input id="submit-btn" onclick="openModal()"
+							class="btn font-raleway rounded-sm font-extrabold text-white text-xl btn-active btn-success bg-[#1dd100] w-full border-none"
+							type="submit" value="Next" />
+						<dialog id="my_modal_1" class="modal">
+							<div class="modal-box flex flex-col items-center justify-center space-y-3">
+								<div>
+									<img src="images/success.png" alt="succes" />
+								</div>
+								<h2 class="text-[#27ae60] text-xl lg:text-2xl font-bold">
+									Success
+								</h2>
+								<p class="font-medium lg:text-xl text-center">
+									Thank you for Booking Our Bus Seats. <br />
+									We are working hard to find the best service and deals for
+									you.
+								</p>
+								<p class="lg:text-xl font-light">
+									Shortly you will find a confirmation in your email.
+								</p>
+								<button onclick="my_modal_1.close()"
+									class="btn bg-[#27ae60] text-white rounded-sm px-20 text-xl">
+									Close
+								</button>
+							</div>
+						</dialog>
+						<div class="flex items-center justify-center gap-3">
+							<p>
+								<a href="" class="underline text-[#03071299]">Terms and Conditions</a>
+							</p>
+							<p>
+								<a href="" class="underline text-[#03071299]">Cancelling Policy</a>
+							</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- JS  -->
+
+	<script src="js/script.js"></script>
+	<script src="js/scroll.js"></script>
+	<script>
+
+	</script>
+</body>
+
+</html>

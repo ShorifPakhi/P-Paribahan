@@ -1,0 +1,155 @@
+/* Basics  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+/* Navbar */
+
+.menu li a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #030712B3;
+}
+
+.menu li {
+    margin-right: 57px;
+    font-size: 17px
+}
+
+.btn-bg {
+    border-radius: 10px;
+    background-color: #1DD1001a;
+    border: 2px solid #1DD10066;
+    color: #1DD100;
+    padding: 16px 30px;
+}
+
+.btn-bg:hover {
+    background-color: #1DD1001a;
+    border: 2px solid #1DD10066;
+    color: #1DD100;
+}
+
+/* Home Starting  */
+
+.btn-home {
+    border-radius: 12px;
+    background-color: #1DD100;
+    padding: 16px 30px;
+    color: #000;
+    border: none;
+}
+
+.home {
+    background-image: url(../images/banner.png);
+    height: 800px;
+    border-radius: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+
+}
+
+.btn-home:hover {
+    background-color: #1DD100;
+    color: #000;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.home h1 span {
+    color: #1DD100;
+}
+
+/* Offers  */
+
+.single-offer-1 {
+    background-image: url(../images/offer-1.png);
+    padding: 40px;
+    height: 220px;
+}
+
+.off-heading {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #030712cc;
+}
+
+.off-descreption {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #030712cc;
+    font-weight: bold;
+}
+
+.off-text {
+    color: #03071280;
+}
+
+.cupon {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cupon-desc {
+    color: #03071266;
+    font-size: 20px;
+}
+
+.single-offer-2 {
+    background-image: url(../images/offer-2.png);
+    padding: 40px;
+    height: 220px;
+}
+
+
+
+/* Seat  */
+
+.seat {
+    transition: all 0.5s;
+}
